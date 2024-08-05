@@ -8,7 +8,7 @@ Since I work with China, I ran into such a problem that the application does not
 4. and add output file name [```output_file_path = 'table_cn2.xlsx'```](https://github.com/oaoaoaoaoammm/XLSX-TABLE-TRANSLATOR/blob/2ae422ffc3142ab586af4ff9b54699a446f6577f/main.py#L12)
 5. if you want to change language, go here:
    [```def translate_text(text, src='ru', dest='zh-cn'):```](https://github.com/oaoaoaoaoammm/XLSX-TABLE-TRANSLATOR/blob/2ae422ffc3142ab586af4ff9b54699a446f6577f/main.py#L21)
-   and change ```dest='zh-cn'```
+   and change ```dest='zh-cn'```, for example, on ```dest='en'```
 7. launch ```main.py``` and text will be translated and saved in new table
 
 
